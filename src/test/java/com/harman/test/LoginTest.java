@@ -9,7 +9,7 @@ import com.harman.base.WebDriverWrapper;
 import com.harman.utilities.DataUtils;
 
 public class LoginTest extends WebDriverWrapper {
-	//will start at 9:20 PM IST
+
 	@Test(dataProviderClass = DataUtils.class,dataProvider = "validCredentialData")
 	public void validCredentialTest(String username, String password, String expectedTitle) {
 
