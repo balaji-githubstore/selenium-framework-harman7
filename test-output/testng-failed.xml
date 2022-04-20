@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.harman.test.LoginTest">
+      <class name="com.harman.test.DemoTest">
         <methods>
-          <include name="validCredentialTest"/>
+          <include name="validTest"/>
         </methods>
-      </class> <!-- com.harman.test.LoginTest -->
+      </class> <!-- com.harman.test.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
